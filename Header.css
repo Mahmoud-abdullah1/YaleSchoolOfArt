@@ -11,7 +11,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #e5e5e5;
+    background-color: #ffffff;
     padding: 0.75rem 1.5rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     z-index: 1000;
@@ -36,9 +36,9 @@ nav a {
 
 /* Hover effect */
 nav a:hover {
-    color: white;
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 5px rgba(255,255,255,0.8);
-    outline: .5px solid black;
+    -webkit-text-stroke: .8px black;
 }
 
 header h1 {
