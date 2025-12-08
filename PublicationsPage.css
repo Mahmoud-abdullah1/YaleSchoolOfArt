@@ -96,7 +96,7 @@
 }
 
 .book-description {
-    flex: 2; /* take more space for the text */
+    flex: 2;
 }
 
 .book-description h3 {
@@ -112,14 +112,44 @@
 }
 
 .book-cover {
-    flex: 1; /* take less space for the image */
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
 
 .Body_of_Work_Cover_Pic {
-    max-width: 200px; /* adjust size as needed */
+    max-width: 200px;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.Body_of_Work_Cover_Pic_Nine{
+    max-width: 200px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.Commencement-Explanation {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #f5f8ff;
+    border-radius: 12px;
+    padding: 30px 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.Commencement-Explanation h2 {
+    color: #0038a8;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.Commencement-Explanation p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 12px;
 }
