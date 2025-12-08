@@ -36,9 +36,9 @@ nav a {
 
 /* Hover effect */
 nav a:hover {
-    color: white;
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 5px rgba(255,255,255,0.8);
-    outline: .5px solid black;
+    -webkit-text-stroke: .8px black;
 }
 
 header h1 {
