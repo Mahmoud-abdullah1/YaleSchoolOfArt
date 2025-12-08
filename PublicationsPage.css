@@ -86,3 +86,40 @@
     line-height: 1.6;
     color: #333;
 }
+
+.book-publication {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.book-description {
+    flex: 2; /* take more space for the text */
+}
+
+.book-description h3 {
+    color: #0038a8;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.book-description p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.book-cover {
+    flex: 1; /* take less space for the image */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Body_of_Work_Cover_Pic {
+    max-width: 200px; /* adjust size as needed */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
