@@ -1,0 +1,26 @@
+.slideshow {
+    position: relative;
+    width: 50%;
+    height: 300px;          /* adjust height if needed */
+    overflow: hidden;
+}
+
+/* each slide */
+.slideshow div {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+/* make images fill area */
+.slideshow img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* first slide starts visible */
+.slideshow div.active {
+    opacity: 1;
+}
